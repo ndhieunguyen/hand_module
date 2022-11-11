@@ -18,7 +18,7 @@ class HandDetector():
         self.hands = self.mp_hands.Hands(static_image_mode=static_image_mode, 
                                     max_num_hands=max_num_hands, 
                                     min_detection_confidence=min_detection_confidence)
-        self.heart = cv2.imread(r'D:\hand\heart_sign_detection\263739024_253383533446094_6241243490509535356_n.png', cv2.IMREAD_UNCHANGED)
+        self.heart = cv2.imread(r'263739024_253383533446094_6241243490509535356_n.png', cv2.IMREAD_UNCHANGED)
 
 # =========================================================================================================
     def compile(self, image):
