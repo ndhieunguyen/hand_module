@@ -23,3 +23,5 @@ Press 'Esc' to exit from program
 
 # Note
 There is a bug in the program that i cannot fix at the moment, please don't keep your hand to close to the camera
+
+if some one not have package tkinter here is what you need: https://stackoverflow.com/questions/25905540/importerror-no-module-named-tkinter
