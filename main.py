@@ -18,7 +18,7 @@ while True:
     # image, _ = hand_detector.detect_fuck_sign_in_image(image)
     # image, _ = hand_detector.detect_spider_sign_in_image(image)
     try:
-        image, _ = hand_detector.detect_heart_sign_in_image_moving(image, index%16)
+        image, _ = hand_detector.detect_heart_sign_in_image_moving(image, index%20)
     except:
         continue
     index += 1
